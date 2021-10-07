@@ -59,6 +59,8 @@ public class DemoBlaze extends TestBase {
 		String user = driver.findElement(By.xpath("//div[@id='navbarExample']/ul/li[7]")).getText();
 		
 		Assert.assertEquals(user, "Welcome tom894");
+		
+		System.out.println("Invalid User"); // to test git testBranch
 	}
 
 	@Test(priority = 3)
