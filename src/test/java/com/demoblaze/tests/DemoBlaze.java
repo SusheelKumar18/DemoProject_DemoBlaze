@@ -61,6 +61,7 @@ public class DemoBlaze extends TestBase {
 		Assert.assertEquals(user, "Welcome tom894");
 		
 		System.out.println("Invalid User"); // to test git testBranch
+		System.out.println("commit 3");
 	}
 
 	@Test(priority = 3)
